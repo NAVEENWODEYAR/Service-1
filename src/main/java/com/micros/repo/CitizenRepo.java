@@ -6,5 +6,6 @@ import com.micros.modal.Citizen;
 
 public interface CitizenRepo extends JpaRepository<Citizen, Integer>
 {
-
+	// findByName.,
+	public Citizen findBycName(String name);
 }

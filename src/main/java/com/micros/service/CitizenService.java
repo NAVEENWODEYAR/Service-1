@@ -35,4 +35,10 @@ public class CitizenService
 	{
 		return citizenRepo.findById(id).get();
 	}
+	
+	// 4. findByName
+	public Citizen getByName(String name)
+	{
+		return citizenRepo.findBycName(name);
+	}
 }

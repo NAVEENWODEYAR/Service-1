@@ -10,6 +10,7 @@ public class Service1Application
 	public static void main(String[] args) 
 	{
 		SpringApplication.run(Service1Application.class, args);
+		System.out.println("\n Module 1 started.,");
 	}
 
 }

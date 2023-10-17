@@ -1,0 +1,5 @@
+# Yet Another Markup Language 
+
+spring:
+  profiles:
+    active: dev

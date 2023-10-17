@@ -3,3 +3,5 @@
 spring:
   profiles:
     active: dev
+  application:
+    name: SERVICE-1

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -40,5 +41,12 @@ public class CitizenController
 	private Citizen insertCitizen(@RequestBody Citizen citizen)
 	{
 		return citizenService.addCitizen(citizen);
+	}
+	
+	// 3. getById.,
+	@GetMapping("/findById")
+	private Citizen getById(@PathVariable Integer id)
+	{
+		return citizenService.getCitizenById(id);
 	}
 }

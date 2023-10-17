@@ -1,15 +1,5 @@
-# Yet Another Markup Language 
+# Yet Another Markup Language
 
 spring:
   profiles:
     active: dev
-  application:
-    name: SERVICE-1
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/service1db?createDatabaseIfNotExist=true
-    username: $DbName
-    password: $Password
-  jpa:
-    generate-ddl: true 
-    show-sql: true

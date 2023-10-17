@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import com.micros.modal.Citizen;
 import com.micros.repo.CitizenRepo;
@@ -27,5 +28,11 @@ public class CitizenService
 	{
 		List<Citizen> list = citizenRepo.findAll();
 		return list;
+	}
+	
+	// 3. findById
+	public Citizen getCitizenById(@PathVariable Integer id)
+	{
+		return citizenRepo.findById(id).get();
 	}
 }

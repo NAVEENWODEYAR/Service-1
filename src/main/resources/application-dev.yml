@@ -1,5 +1,8 @@
 #Development Environment configurations., 
 
+server:
+  port: 1010
+  
 spring:
   application:
     name: SERVICE-1

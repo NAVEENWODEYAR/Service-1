@@ -21,7 +21,7 @@ public class CitizenController
 	private CitizenService citizenService;
 	
 	
-	// test endPoint.,
+	// Dummy endPoint.,
 	@GetMapping("/test")
 	private String test(String str)
 	{	

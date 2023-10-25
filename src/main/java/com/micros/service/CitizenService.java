@@ -16,8 +16,8 @@ public class CitizenService
 	@Autowired
 	private CitizenRepo citizenRepo;
 	
-	// CRUD Operations,
-	// 1. INSERT INTO TABLE VALUES,
+	// CRUD Operations.,
+	// 1. INSERT INTO TABLE VALUES.,
 	public Citizen addCitizen(Citizen citizen)
 	{
 		return citizenRepo.save(citizen);

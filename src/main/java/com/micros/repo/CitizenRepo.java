@@ -10,6 +10,8 @@ public interface CitizenRepo extends JpaRepository<Citizen, Integer>
 	// findByName.,
 	public Citizen findBycName(String name);
 	
+	
+	// JPQL Queries.,
 	@Query(value = "SELECT * FROM citizen_table WHERE citizen.cName=",nativeQuery = true)
 	public void getSeniorCitizens();
 }

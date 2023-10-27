@@ -13,7 +13,7 @@ public class Service1Application
 	public static void main(String[] args) 
 	{
 		SpringApplication.run(Service1Application.class, args);
-		System.out.println("\n Service - 1 started.,");
+		System.out.println("\n Service-1 started.,");
 	}
 	
 	@Bean

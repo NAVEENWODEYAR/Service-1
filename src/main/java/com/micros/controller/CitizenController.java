@@ -21,7 +21,7 @@ public class CitizenController
 	@GetMapping("/test")
 	private String test(String str)
 	{	
-		return "Hello Mr."+str+", welcome to the team";
+		return "Hello Mr."+str+", welcome to the club";
 	}
 	
 	// 1. get data,

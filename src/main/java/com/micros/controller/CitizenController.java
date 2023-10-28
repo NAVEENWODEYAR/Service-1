@@ -39,7 +39,7 @@ public class CitizenController
 		return citizenService.addCitizen(citizen);
 	}
 	
-	// 3. getById.,
+	// 3. select record.,
 	@GetMapping("/findById")
 	private Citizen getById(@PathVariable Integer id)
 	{

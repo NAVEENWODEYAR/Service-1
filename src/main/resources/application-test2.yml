@@ -1,0 +1,4 @@
+#Test-Environment configurations.,
+
+server:
+  port: 2222

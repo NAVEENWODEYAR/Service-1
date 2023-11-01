@@ -24,7 +24,7 @@ public class CitizenController
 		return "Hello Mr."+str+", welcome to the club";
 	}
 	
-	// 1. get data,
+	// 1. get data.,
 	@GetMapping("/getCitizen")
 	private List<Citizen> getCitizens()
 	{
